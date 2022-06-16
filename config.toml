@@ -647,13 +647,13 @@ uglyURLs = false
     # Note: render only in production
     #       environment
 
-    enableComments = false
+    enableComments = true
     # Note: *global settings*
     #       `comments` in post’s Front Matter
     #       has a higher priority than here
 
     # directly load the comments after pages loaded
-    autoLoadComments = false
+    autoLoadComments = true
 
     ## Disqus
     enableDisqus = false
@@ -690,13 +690,13 @@ uglyURLs = false
     # Note: https://utteranc.es/
 
     ## Gitalk
-    enableGitalk = false
-    gitalkClientID = "your_client_id"
-    gitalkClientSecret = "your_client_secret"
-    gitalkRepo = "your_repository"
-    gitalkOwner = "your_gitalk_owner"
-    gitalkAdmin = ["your_gitalk_admin"]
-    gitalkLable = ["Gitalk"]
+    enableGitalk = true
+    gitalkClientID = "00b5ed4a73e865be233f"
+    gitalkClientSecret = "a36378fc6b4cb79ba7400c88a12d35d2f70707bb"
+    gitalkRepo = "hit-hezhaoyang.github.io"
+    gitalkOwner = "hit-hezhaoyang"
+    gitalkAdmin = ["hit-hezhaoyang"]
+    gitalkLable = ["Gitalk", "xxxxx"]
     gitalkDistractionFreeMode = false
     gitalkPerPage = 10
     gitalkLanguage = "en"
